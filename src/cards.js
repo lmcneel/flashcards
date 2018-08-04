@@ -1,7 +1,11 @@
 const cards = [
     {
        class: 'primary',
-       front: () => '<h1>My Awesome Site</h1>',
+       front: () => {
+        return (`
+           <h1>My Awesome App</h1>
+        `);
+    },
        back: () => {
            return (`
                 Language: HTML
