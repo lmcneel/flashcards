@@ -1,0 +1,4 @@
+src/assets/images/**
+src/assets/scss/**
+src/**/*.css
+src/registerServiceWorker.js
